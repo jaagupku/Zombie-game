@@ -1,0 +1,4 @@
+Mäng töötab sellel platvormil kindlalt:
+Windows 10 (64bit)
+Python 3.5 (64bit)
+pygame-1.9.2a0-cp35-none-win_amd64

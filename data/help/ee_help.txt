@@ -1,0 +1,6 @@
+﻿Tere! Mängu eesmärk on võimalikult kaua elus püsida ja saavutada võimalikult suur skoor, mida saab kui koletistega võitled. Mängus on kuus erinevat relva. Glock 18, Sawed-off shotgun, AK-47, AWP Sniper, M249 kuulipildur pluss lightsaber. Relvi saab vahetada rulliku ja numbri klahvidega. Tulistamine käib vasaku hiire klahviga. Teisi nuppe saab vahetade sätete ekraani all. Õnn kaasa!
+Mängu autor: Jaagup Kuhi
+Menüüs ja nuppudel on fondid vastavalt "Astonished" ja "Dirty Ego" www.misprintedtype.com (Fonts --> Freeware)
+Lightsaberi helid: http://theforce.net/fanfilms/postproduction/soundfx/saberfx_fergo.asp
+Ülejäänud helid on mängust Counter Strike 1.6 ja selle sama mängu modist "Zombie plague"
+Funktsioon, mis tagastab punkti kauguse lõigust: stackoverflow.com kasutaja "quano"
