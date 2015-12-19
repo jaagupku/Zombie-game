@@ -486,7 +486,7 @@ class Gun(Weapon):
             self.start_reload()
         elif self.clip == 0:
             self.was_shot = True
-        elif not self.was_shot and not self.reload_bool and delta_time > self.speed:
+        elif not self.was_shot and not self.reload_bool and delta_time > self.speed and Var.channel_weaponr.get_sound() is None:
             Var.channel_weapona.play(Var.sound_guns[self.sound][randint(0, len(Var.sound_guns[self.sound]) - 1)])
             if self.sound == 3:
                 Var.channel_weaponr.play(Var.sound_reload[3][2])

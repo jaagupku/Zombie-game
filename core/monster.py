@@ -155,7 +155,7 @@ class Zombie(Monster):
                 if not core.Gameobj.hero.guns[idgun]:
                     core.Gameobj.hero.guns[idgun] = True
                 clipsize = core.Gameobj.guns[idgun].clip_size
-                core.Gameobj.hero.ammo[core.Gameobj.guns[idgun].bullet_type] += randint(clipsize, clipsize*3)
+                core.Gameobj.hero.ammo[core.Gameobj.guns[idgun].bullet_type] += randint(clipsize // 2, clipsize * 2)
                 core.Var.channel_misc2.play(core.Var.sound_pick)
             core.Gameobj.items.append(core.Item(self.x, self.y, core.Item.img_weaponground[idgun], action))
         core.Gameobj.monsters.remove(self)

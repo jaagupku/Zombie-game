@@ -26,7 +26,7 @@ class Hero(object):
         self.current_gun = 1
         self.prev_wep = 0
         self.guns = [True, True, True, True, True, True, False]
-        self.ammo = [-1, 33, 44, 44, 44]  # Handgun ammo, shotgun ammo, rifle ammo, sniper rifle, machine gun
+        self.ammo = [-1, 16, 45, 10, 100]  # Handgun ammo, shotgun ammo, rifle ammo, sniper rifle, machine gun
         self.angle = 0
         self.hit_animation = False
         self.step = False
