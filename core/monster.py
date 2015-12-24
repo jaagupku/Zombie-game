@@ -14,7 +14,7 @@ class Monster(object):
         Zombie.img_gore_particles = core.load_spritesheet_alpha(core.Var.path_zombiegore, 64, 3, 2)
         Zombie.img = core.load_spritesheet_alpha(core.Var.path_zombie, 128, 2, 2)
 
-    def __init__(self, x, y, name, maxhealth, speed, damage, image, attacktimer, mass):
+    def __init__(self, x, y, name, maxhealth, speed, damage, image, attacktimer, mass, attack_range):
         self.x = x
         self.y = y
         self.name = name
@@ -36,6 +36,7 @@ class Monster(object):
         self.kickback = 0
         self.collision_with_other = [False, 1, 1]
         self.kick_direction = [0, 0]
+        self.attack_range = (core.dpp(attack_range) + core.sqrt(self.size) + core.sqrt(core.Gameobj.hero.size)) ** 2
 
     def render(self, s):
         animation_max = 30
@@ -107,7 +108,7 @@ class Zombie(Monster):
 
     def __init__(self, x, y):
         rng = randint(0, len(Zombie.img) - 1)
-        Monster.__init__(self, x, y, "zombie_common", 100, core.dpp(55 / 1000), 8, Zombie.img[rng], 1, 10)
+        Monster.__init__(self, x, y, "zombie_common", 100, core.dpp(55 / 1000), 8, Zombie.img[rng], 1, 10, 4.5)
 
     def get_damaged(self, dmg):
         if core.Var.channel_monster1.get_sound() is None:
@@ -126,7 +127,7 @@ class Zombie(Monster):
         self.vect_long.x = core.Gameobj.hero.x - self.x
         self.vect_long.y = core.Gameobj.hero.y - self.y
         len_squared_long = self.vect_long.length_squared()
-        if len_squared_long < (self.size + core.Gameobj.hero.size + core.dpp(3)) * 1.15:
+        if len_squared_long < self.attack_range:
             self.start_attack()
         else:
             self.attack_bool = False
