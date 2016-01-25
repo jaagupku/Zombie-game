@@ -1,0 +1,6 @@
+﻿Hello! The goal of the game is to survive for as long as possible. This can be done by killing monsters, who give you score points when you kill them. There are 6 weapons in game. Glock 18, Sawed-off shotgun, AK-47, AWP Sniper, M249 machine gun and a lightsaber. Weapons can be switched with mouse wheel and number keys. Shooting works with left mouse button. Other buttons can be changed at settings screen. Good luck!
+Game author: Jaagup Kuhi
+Menu and button fonts are "Astonished" and "Dirty Ego" www.misprintedtype.com (Fonts --> Freeware)
+Lightsaber sounds: http://theforce.net/fanfilms/postproduction/soundfx/saberfx_fergo.asp
+Other sounds are from Counter Strike 1.6 and it's mod "Zombie plague"
+Function, that returns points distance from finite line segment: stackoverflow.com user "quano"
