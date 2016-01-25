@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52362eff-cba9-4bb5-b65d-1140ccd9fa7a" name="Default" comment="Added attack range variable to monsters.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/devil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/devil_blast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/fireball.wav" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/config.pickle" afterPath="$PROJECT_DIR$/data/config.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/scoreboard.pickle" afterPath="$PROJECT_DIR$/data/scoreboard.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/progremise projekt.iml" afterPath="$PROJECT_DIR$/.idea/progremise projekt.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/__init__.py" afterPath="$PROJECT_DIR$/core/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/monster.py" afterPath="$PROJECT_DIR$/core/monster.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screens/escmenu.py" afterPath="$PROJECT_DIR$/screens/escmenu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screens/survivalmode.py" afterPath="$PROJECT_DIR$/screens/survivalmode.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sounds/sources.txt" afterPath="$PROJECT_DIR$/sounds/sources.txt" />
     </list>
     <ignored path="progremise projekt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +32,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/progremise projekt$Zombi_mäng.coverage" NAME="Zombi mäng Coverage Results" MODIFIED="1450960281978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/progremise projekt$Zombi_mäng.coverage" NAME="Build exe Coverage Results" MODIFIED="1451050910283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/progremise projekt$Zombi_mäng__P35.coverage" NAME="Zombi mäng -P35 Coverage Results" MODIFIED="1453713127410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/progremise projekt$Zombi_mäng__P34.coverage" NAME="Zombi mäng -P34 Coverage Results" MODIFIED="1451002047522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/progremise projekt$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1447884173686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Ülikool/MTAT.03.100 Programmerimine/12 kodutoo" />
     <SUITE FILE_PATH="coverage/progremise projekt$Old_zombi_game.coverage" NAME="Old zombi game Coverage Results" MODIFIED="1450294024012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Ülikool/NOT vana zombimang" />
   </component>
@@ -32,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Zombi mäng.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Zombi mäng.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Zombi mäng.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.40136054">
+              <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -44,11 +59,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="monster.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="245" column="33" selection-start-line="245" selection-start-column="33" selection-end-line="245" selection-end-column="33" />
+              <folding>
+                <element signature="e#46#64#0" expanded="true" />
+                <element signature="e#18750#19309#0" expanded="false" />
+                <element signature="e#19337#21300#0" expanded="false" />
+                <element signature="e#21881#22259#0" expanded="false" />
+                <element signature="e#28335#28799#0" expanded="false" />
+                <element signature="e#28834#32485#0" expanded="false" />
+                <element signature="e#34797#35440#0" expanded="false" />
+                <marker date="1453713125620" expanded="true" signature="25955:26466" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="escmenu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screens/escmenu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="monster.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/monster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6661608">
-              <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="207" column="71" selection-start-line="207" selection-start-column="71" selection-end-line="207" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/player.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="153" column="36" selection-start-line="153" selection-start-column="36" selection-end-line="153" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -58,12 +112,12 @@
         <entry file="file://$PROJECT_DIR$/screens/survivalmode.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="186" column="67" selection-start-line="186" selection-start-column="67" selection-end-line="186" selection-end-column="67" />
+              <caret line="187" column="28" selection-start-line="187" selection-start-column="28" selection-end-line="187" selection-end-column="28" />
               <folding>
                 <element signature="e#46#72#0" expanded="true" />
                 <element signature="e#262#575#0" expanded="false" />
-                <element signature="e#7436#7587#0" expanded="false" />
-                <element signature="e#7621#7625#0" expanded="false" />
+                <element signature="e#7487#7638#0" expanded="false" />
+                <element signature="e#7672#7676#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -135,15 +189,16 @@
         <option value="$PROJECT_DIR$/../Ülikool/MTAT.03.100 Programmerimine/12 kodutoo/kodu5.py" />
         <option value="$PROJECT_DIR$/core/item.py" />
         <option value="$PROJECT_DIR$/core/uielements.py" />
-        <option value="$PROJECT_DIR$/screens/survivalmode.py" />
         <option value="$PROJECT_DIR$/core/widgets.py" />
         <option value="$PROJECT_DIR$/Zombi mäng.py" />
-        <option value="$PROJECT_DIR$/screens/escmenu.py" />
         <option value="$PROJECT_DIR$/core/readwrite.py" />
         <option value="$PROJECT_DIR$/screens/menu.py" />
-        <option value="$PROJECT_DIR$/core/__init__.py" />
         <option value="$PROJECT_DIR$/core/player.py" />
+        <option value="$PROJECT_DIR$/screens/escmenu.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/core/monster.py" />
+        <option value="$PROJECT_DIR$/core/__init__.py" />
+        <option value="$PROJECT_DIR$/screens/survivalmode.py" />
       </list>
     </option>
   </component>
@@ -212,21 +267,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="screens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="progremise projekt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zombie-game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="sounds" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,7 +289,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistoryKey" value="core.p.D&#9;null&#9;null&#10;sett&#9;ACTION&#9;Database.Settings&#10;power&#9;ACTION&#9;TogglePowerSave" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="219" />
@@ -283,7 +324,7 @@
       <recent name="C:\Users\Jaagup\Ülikool\progremise projekt\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Zombi mäng">
+  <component name="RunManager" selected="Python.Zombi mäng -P35">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -477,7 +518,7 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Zombi mäng" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="false" name="Zombi mäng -P35" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -492,6 +533,42 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zombi mäng.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Zombi mäng -P34" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python34\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="progremise projekt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zombi mäng.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build exe" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python34\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="progremise projekt" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup.py" />
+      <option name="PARAMETERS" value="build" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -513,9 +590,11 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.Zombi mäng" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Old zombi game" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.Zombi mäng -P35" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Zombi mäng -P34" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Build exe" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Old zombi game" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -547,33 +626,39 @@
       <option name="project" value="LOCAL" />
       <updated>1450960433237</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added attack range variable to monsters.">
+      <created>1450960440719</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1450960440719</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24371585" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24371585" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24371585" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -617,6 +702,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/setup.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -627,21 +719,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="77" />
+      <option name="time" value="78" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Zombi mäng.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screens/survivalmode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -649,8 +731,8 @@
           <folding>
             <element signature="e#46#72#0" expanded="true" />
             <element signature="e#262#575#0" expanded="false" />
-            <element signature="e#7436#7587#0" expanded="false" />
-            <element signature="e#7621#7625#0" expanded="false" />
+            <element signature="e#7487#7638#0" expanded="false" />
+            <element signature="e#7672#7676#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -667,14 +749,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="123" column="65" selection-start-line="123" selection-start-column="65" selection-end-line="123" selection-end-column="65" />
           <folding>
-            <element signature="e#18521#19080#0" expanded="false" />
-            <element signature="e#19108#21071#0" expanded="false" />
-            <element signature="e#21652#22030#0" expanded="false" />
-            <element signature="e#28106#28570#0" expanded="false" />
-            <element signature="e#28605#32256#0" expanded="false" />
-            <element signature="e#32287#34387#0" expanded="false" />
-            <element signature="e#34414#35057#0" expanded="false" />
-            <marker date="1450553921497" expanded="true" signature="25726:26237" placeholder="..." />
+            <element signature="e#46#64#0" expanded="true" />
+            <element signature="e#18750#19309#0" expanded="false" />
+            <element signature="e#19337#21300#0" expanded="false" />
+            <element signature="e#21881#22259#0" expanded="false" />
+            <element signature="e#28335#28799#0" expanded="false" />
+            <element signature="e#28834#32485#0" expanded="false" />
+            <element signature="e#34797#35440#0" expanded="false" />
+            <marker date="1453713125620" expanded="true" signature="25955:26466" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -683,6 +765,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -731,8 +814,8 @@
           <folding>
             <element signature="e#46#72#0" expanded="true" />
             <element signature="e#262#575#0" expanded="false" />
-            <element signature="e#7436#7587#0" expanded="false" />
-            <element signature="e#7621#7625#0" expanded="false" />
+            <element signature="e#7487#7638#0" expanded="false" />
+            <element signature="e#7672#7676#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -780,8 +863,8 @@
           <folding>
             <element signature="e#46#72#0" expanded="true" />
             <element signature="e#262#575#0" expanded="false" />
-            <element signature="e#7436#7587#0" expanded="false" />
-            <element signature="e#7621#7625#0" expanded="false" />
+            <element signature="e#7487#7638#0" expanded="false" />
+            <element signature="e#7672#7676#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -824,8 +907,8 @@
           <folding>
             <element signature="e#46#72#0" expanded="true" />
             <element signature="e#262#575#0" expanded="false" />
-            <element signature="e#7436#7587#0" expanded="false" />
-            <element signature="e#7621#7625#0" expanded="false" />
+            <element signature="e#7487#7638#0" expanded="false" />
+            <element signature="e#7672#7676#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -861,8 +944,8 @@
           <folding>
             <element signature="e#46#72#0" expanded="true" />
             <element signature="e#262#575#0" expanded="false" />
-            <element signature="e#7436#7587#0" expanded="false" />
-            <element signature="e#7621#7625#0" expanded="false" />
+            <element signature="e#7487#7638#0" expanded="false" />
+            <element signature="e#7672#7676#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -898,8 +981,8 @@
           <folding>
             <element signature="e#46#72#0" expanded="true" />
             <element signature="e#262#575#0" expanded="false" />
-            <element signature="e#7436#7587#0" expanded="false" />
-            <element signature="e#7621#7625#0" expanded="false" />
+            <element signature="e#7487#7638#0" expanded="false" />
+            <element signature="e#7672#7676#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -928,8 +1011,8 @@
           <folding>
             <element signature="e#46#72#0" expanded="true" />
             <element signature="e#262#575#0" expanded="false" />
-            <element signature="e#7436#7587#0" expanded="false" />
-            <element signature="e#7621#7625#0" expanded="false" />
+            <element signature="e#7487#7638#0" expanded="false" />
+            <element signature="e#7672#7676#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1011,48 +1094,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/escmenu.py">
+    <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="488" column="127" selection-start-line="488" selection-start-column="127" selection-end-line="488" selection-end-column="127" />
+        <state vertical-scroll-proportion="0.06676783">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#18521#19080#0" expanded="false" />
-            <element signature="e#19108#21071#0" expanded="false" />
-            <element signature="e#21652#22030#0" expanded="false" />
-            <element signature="e#28106#28570#0" expanded="false" />
-            <element signature="e#28605#32256#0" expanded="false" />
-            <element signature="e#32287#34387#0" expanded="false" />
-            <element signature="e#34414#35057#0" expanded="false" />
-            <marker date="1450553921497" expanded="true" signature="25726:26237" placeholder="..." />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/player.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33282906">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screens/survivalmode.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="186" column="67" selection-start-line="186" selection-start-column="67" selection-end-line="186" selection-end-column="67" />
-          <folding>
-            <element signature="e#46#72#0" expanded="true" />
-            <element signature="e#262#575#0" expanded="false" />
-            <element signature="e#7436#7587#0" expanded="false" />
-            <element signature="e#7621#7625#0" expanded="false" />
-          </folding>
+          <caret line="153" column="36" selection-start-line="153" selection-start-column="36" selection-end-line="153" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,21 +1120,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zombi mäng.py">
+    <entry file="file://$PROJECT_DIR$/screens/escmenu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="245" column="33" selection-start-line="245" selection-start-column="33" selection-end-line="245" selection-end-column="33" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#46#64#0" expanded="true" />
+            <element signature="e#18750#19309#0" expanded="false" />
+            <element signature="e#19337#21300#0" expanded="false" />
+            <element signature="e#21881#22259#0" expanded="false" />
+            <element signature="e#28335#28799#0" expanded="false" />
+            <element signature="e#28834#32485#0" expanded="false" />
+            <element signature="e#34797#35440#0" expanded="false" />
+            <marker date="1453713125620" expanded="true" signature="25955:26466" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/monster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6661608">
-          <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="207" column="71" selection-start-line="207" selection-start-column="71" selection-end-line="207" selection-end-column="71" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/survivalmode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="187" column="28" selection-start-line="187" selection-start-column="28" selection-end-line="187" selection-end-column="28" />
+          <folding>
+            <element signature="e#46#72#0" expanded="true" />
+            <element signature="e#262#575#0" expanded="false" />
+            <element signature="e#7487#7638#0" expanded="false" />
+            <element signature="e#7672#7676#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zombi mäng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40136054">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

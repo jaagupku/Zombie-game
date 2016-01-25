@@ -59,7 +59,6 @@ class Pausemenu(core.Screen):
             if self.message_exit.value is not None:
                 if self.message_exit.value:
                     core.readwrite.write_scores()
-                    core.p.quit()
                     core.Var.exit = True
                 self.message_exit = None
 
@@ -121,7 +120,6 @@ class Quitmessage(core.Screen):
         if self.message_ask.value is not None:
             if self.message_ask.value:
                 core.readwrite.write_scores()
-                core.p.quit()
                 core.Var.exit = True
             else:
                 core.Var.new_screen = core.Var.previous_screen

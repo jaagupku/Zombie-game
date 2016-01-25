@@ -90,6 +90,8 @@ class Var(object):
     path_grassybk = os.path.join(folder_img, "grassybackground.png")
     path_starwars = os.path.join(folder_img, "starwars.png")
     path_shell = os.path.join(folder_img, "shell.png")
+    path_devil = os.path.join(folder_img, "devil.png")
+    path_fireball = os.path.join(folder_img, "devil_blast.png")
 
     # Colors
     BLACK = (0, 0, 0)
@@ -238,8 +240,10 @@ class Var(object):
                         p.mixer.Sound(os.path.join("sounds", "zombie_die4.wav")),
                         p.mixer.Sound(os.path.join("sounds", "zombie_die5.wav"))]
     sound_pick = p.mixer.Sound(os.path.join("sounds", "zoom.wav"))
+    sound_fireball = p.mixer.Sound(os.path.join("sounds", "fireball.wav"))
     sound_steps[0].set_volume(0.34)
     sound_steps[1].set_volume(0.34)
+    sound_fireball.set_volume(0.7)
 
     @staticmethod
     def set_volume():
@@ -704,7 +708,7 @@ class Inputhandler(object):
 
 
 class Particle(object):
-    def __init__(self, pos, speed, angle, lifespan, fade, img, disappear=False):
+    def __init__(self, pos, speed, angle, lifespan, fade, img, disappear=False, command=None):
         self.__x1 = pos[0]
         self.__y1 = pos[1]
         self.__x2 = pos[2]
@@ -726,6 +730,7 @@ class Particle(object):
         self.__frame = self.__img.get_rect()
         self.__disappear = disappear
         self.rotated = p.transform.rotate(self.__img, self.__angle)
+        self.command = command
 
     def render(self, s):
         self.rotated = p.transform.rotate(self.__img, self.__angle)
@@ -746,7 +751,9 @@ class Particle(object):
         vect.scale_to_length(self.__speed * delta)
         self.__x1 += vect.x
         self.__y1 += vect.y
-        if not self.__fade:
+        if self.command is not None:
+            self.command(self, self.__x1, self.__y1, self.__timeleft)
+        elif not self.__fade:
             if self.__timeleft < 1:
                 if self.__disappear:
                     Gameobj.particles_over.remove(self)

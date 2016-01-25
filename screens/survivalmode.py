@@ -151,6 +151,7 @@ class Survivalmode(core.Screen):
                 core.Var.start_screen = True
                 core.Var.stop_screen = True
                 core.Var.new_screen = 5
+                core.Var.current_game = [False, 0]
                 self.end_message = None
 
     def on_resume(self):
@@ -184,7 +185,10 @@ class Survivalmode(core.Screen):
                 y = core.Var.level_boundries[3] + a
             else:
                 x, y = 0, 0
-            core.Gameobj.monsters.append(core.monster.Zombie(x, y))
+            if randint(0, 25) == 1:
+                core.Gameobj.monsters.append(core.monster.Devil(x, y))
+            else:
+                core.Gameobj.monsters.append(core.monster.Zombie(x, y))
 
     def start_next_wave(self):
         self.n_spawn_zombies = round(11 * 1.4**core.Var.survival_wave)
