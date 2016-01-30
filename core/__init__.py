@@ -126,7 +126,7 @@ class Var(object):
                      ("Lae mäng", "Load game", "Загрузить игру"),
                      ("Peamenüü", "Main menu", "главное меню"),
                      ("Välju", "Exit", "Выход"))
-    CAPTION = ("Zombi mäng HD 2.0", "Zombie game HD 2.0", "Зомби игры HD 2.0")
+    CAPTION = ("Zombi mäng", "Zombie game", "Зомби игры")
     str_back = ("Tagasi", "Back", "Назад")
     str_fullscreen = ("Täisekraan", "Full screen", "Полноэкранный")
     str_videoaudio = ("Mängu sätted", "Game settings", "варианты игры")
