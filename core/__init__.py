@@ -804,9 +804,10 @@ def load_spritesheet(path, size, x, y):
     sheet = p.image.load(path)
     imgs = []
     size = dppr2(size)
+    margin = dppr2(1)
     for i in range(y):
         for j in range(x):
-            sheet.set_clip(p.Rect(j * size, i * size, size, size))
+            sheet.set_clip(p.Rect(j * size + margin, i * size + margin, size - margin*2, size - margin*2))
             img = sheet.subsurface(sheet.get_clip())
             img.convert()
             img.set_colorkey(Var.COLOR_KEY)
@@ -818,9 +819,10 @@ def load_spritesheet_alpha(path, size, x, y):
     sheet = load_image_alpha(path)
     imgs = []
     size = dppr2(size)
+    margin = dppr2(1)
     for i in range(y):
         for j in range(x):
-            sheet.set_clip(p.Rect(j * size, i * size, size, size))
+            sheet.set_clip(p.Rect(j * size + margin, i * size + margin, size - margin*2, size - margin*2))
             img = sheet.subsurface(sheet.get_clip())
             img.convert_alpha()
             imgs.append(img)
